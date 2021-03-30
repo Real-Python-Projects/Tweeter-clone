@@ -74,9 +74,10 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <div class="navbar-nav mr-auto pl-2">
               <a class="nav-item nav-link" href="{% url 'blog-home' %}">Home</a>
-              <a class="nav-item nav-link" href="{% url 'blog-about' %}"
+              <a  class="nav-item nav-link" href="https://felixcode.netlify.app">Developer</a>
+              <!-- <a class="nav-item nav-link" href="{% url 'blog-about' %}"
                 >About</a
-              >
+              > -->
             </div>
             <div class="navbar-nav pr-2">
               {% if user.is_authenticated %}
@@ -92,6 +93,7 @@
               <a class="nav-item nav-link" href="{% url 'register-users' %}"
                 >Register</a
               >
+             
               {% endif %}
             </div>
           </div>
@@ -109,7 +111,7 @@
         </div>
       </div>
     </main>
-
+     
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
